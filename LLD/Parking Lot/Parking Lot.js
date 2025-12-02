@@ -225,7 +225,7 @@ class ParkingLot {
         // Remove from active vehicles
         this.vehicleMap.delete(ticket.vehicle.licensePlate);
 
-        console.log(`Vehicle ${ticket.vehicle.licensePlate} exited. Amount: $${amount}`);
+        console.log(`Vehicle ${ticket.vehicle.NumberPlate} exited. Amount: $${amount}`);
         return amount;
     }
 
